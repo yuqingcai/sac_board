@@ -2511,16 +2511,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 165.1) (xy 261.62 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "238852a3-554c-4522-935b-bcaf2d85a009")
-	)
-	(wire
-		(pts
 			(xy 251.46 148.59) (xy 257.81 148.59)
 		)
 		(stroke
@@ -3618,16 +3608,6 @@
 			(type default)
 		)
 		(uuid "53ba8ff3-9941-4925-bbb4-a5815bf89ec9")
-	)
-	(wire
-		(pts
-			(xy 127 110.49) (xy 130.81 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54b529fd-cf91-484e-b6cc-159a6cb82772")
 	)
 	(wire
 		(pts
@@ -5541,6 +5521,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 165.1) (xy 261.62 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af90f855-bf93-4925-8c95-d1d5b412140e")
+	)
+	(wire
+		(pts
 			(xy 294.64 110.49) (xy 303.53 110.49)
 		)
 		(stroke
@@ -6548,6 +6538,16 @@
 			(type default)
 		)
 		(uuid "d4a85442-092d-4c45-8e86-d3c3b6a94358")
+	)
+	(wire
+		(pts
+			(xy 127 110.49) (xy 130.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fb2467-942f-42dc-92b9-7812443a6e0c")
 	)
 	(wire
 		(pts
@@ -7734,7 +7734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00fa1cba-4c0c-4b69-910a-2bd7d8af9f93")
-		(property "Reference" "R9"
+		(property "Reference" "R19"
 			(at 198.12 60.706 90)
 			(effects
 				(font
@@ -7804,7 +7804,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R9")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7819,7 +7819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01ab5b09-a556-412f-a07d-143879721f35")
-		(property "Reference" "C70"
+		(property "Reference" "C51"
 			(at 180.848 170.434 0)
 			(effects
 				(font
@@ -7835,7 +7835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 184.15 172.72 0)
 			(effects
 				(font
@@ -7889,7 +7889,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C70")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -7904,7 +7904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01f700f9-8342-4466-8cee-63c529a80b3c")
-		(property "Reference" "C20"
+		(property "Reference" "C97"
 			(at 380.238 42.164 0)
 			(effects
 				(font
@@ -7920,7 +7920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 382.27 44.45 0)
 			(effects
 				(font
@@ -7974,7 +7974,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C20")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -7989,7 +7989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01fa3b29-b54a-461e-8e4f-9550745f1f1d")
-		(property "Reference" "L11"
+		(property "Reference" "L14"
 			(at 367.03 164.592 90)
 			(effects
 				(font
@@ -8059,7 +8059,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "L11")
+					(reference "L14")
 					(unit 1)
 				)
 			)
@@ -8074,7 +8074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04bcfd90-9c2f-46e0-a884-3c4f0c52bcca")
-		(property "Reference" "C24"
+		(property "Reference" "C17"
 			(at 43.688 58.674 0)
 			(effects
 				(font
@@ -8090,7 +8090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.99 60.96 0)
 			(effects
 				(font
@@ -8144,7 +8144,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C24")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8159,7 +8159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05f9ec7f-5555-4bf7-85a7-2e44a0590e74")
-		(property "Reference" "R11"
+		(property "Reference" "R31"
 			(at 323.85 60.706 90)
 			(effects
 				(font
@@ -8229,7 +8229,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R11")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -8244,7 +8244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0662396f-b6a5-4d49-8887-fd98bdee1bc6")
-		(property "Reference" "R30"
+		(property "Reference" "R41"
 			(at 363.982 173.736 90)
 			(effects
 				(font
@@ -8314,7 +8314,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R30")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -8329,7 +8329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "068010c4-134e-42ae-ae93-0d8772cb791f")
-		(property "Reference" "C46"
+		(property "Reference" "C22"
 			(at 50.038 115.824 0)
 			(effects
 				(font
@@ -8345,7 +8345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.34 118.11 0)
 			(effects
 				(font
@@ -8399,7 +8399,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C46")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -8414,7 +8414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07822d9f-29ae-49e8-9ca0-4e22ace75a99")
-		(property "Reference" "R29"
+		(property "Reference" "R33"
 			(at 325.12 173.736 90)
 			(effects
 				(font
@@ -8484,7 +8484,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R29")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -8499,7 +8499,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "080d62df-fdd5-4990-9d90-2943c7d6bbbe")
-		(property "Reference" "C47"
+		(property "Reference" "C26"
 			(at 56.388 115.824 0)
 			(effects
 				(font
@@ -8515,7 +8515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.69 118.11 0)
 			(effects
 				(font
@@ -8569,7 +8569,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C47")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -8585,7 +8585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "084fcb0e-b374-4c9b-bcee-36be35fa75e3")
-		(property "Reference" "U8"
+		(property "Reference" "U12"
 			(at 340.36 102.87 0)
 			(effects
 				(font
@@ -8668,7 +8668,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "U8")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -8683,7 +8683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "087df83c-d9eb-4f26-b69e-6007321284b9")
-		(property "Reference" "R36"
+		(property "Reference" "R22"
 			(at 199.39 229.616 90)
 			(effects
 				(font
@@ -8753,7 +8753,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R36")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8768,7 +8768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "093ee518-ea48-440c-816c-52cc25cc0d22")
-		(property "Reference" "C57"
+		(property "Reference" "C39"
 			(at 119.888 153.924 0)
 			(effects
 				(font
@@ -8784,7 +8784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 156.21 0)
 			(effects
 				(font
@@ -8838,7 +8838,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C57")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -8853,7 +8853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09d7e4e5-ef27-4f85-b1cf-210d3e3baffa")
-		(property "Reference" "C84"
+		(property "Reference" "C32"
 			(at 98.552 223.774 90)
 			(effects
 				(font
@@ -8869,7 +8869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.6 224.79 0)
 			(effects
 				(font
@@ -8923,7 +8923,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C84")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -8939,7 +8939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a213cfd-4472-44ff-90bf-886bb99f1efb")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR028"
 			(at 377.19 85.09 0)
 			(effects
 				(font
@@ -8989,7 +8989,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR014")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9004,7 +9004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bb200bb-e2e3-4c8c-af9b-bd404e73daab")
-		(property "Reference" "R40"
+		(property "Reference" "R14"
 			(at 96.012 233.172 0)
 			(effects
 				(font
@@ -9074,7 +9074,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R40")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9089,7 +9089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bcd7c59-8b3a-4d6a-9bd2-83ecc165b107")
-		(property "Reference" "R21"
+		(property "Reference" "R40"
 			(at 363.982 117.856 90)
 			(effects
 				(font
@@ -9159,7 +9159,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R21")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -9174,7 +9174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d4dc9d7-ee8a-4767-a11a-5eb32906c7fb")
-		(property "Reference" "C19"
+		(property "Reference" "C93"
 			(at 372.618 42.164 0)
 			(effects
 				(font
@@ -9190,7 +9190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 375.92 44.45 0)
 			(effects
 				(font
@@ -9244,7 +9244,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C19")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -9260,7 +9260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d7db52a-9677-4c7d-9e1a-8f14dea345bc")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR022"
 			(at 251.46 196.85 0)
 			(effects
 				(font
@@ -9310,7 +9310,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9326,7 +9326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fabf0c6-3dd0-4e2e-9ec6-d1aff5c81f44")
-		(property "Reference" "U4"
+		(property "Reference" "U7"
 			(at 213.36 45.72 0)
 			(effects
 				(font
@@ -9409,7 +9409,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "U4")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -9523,7 +9523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "114891f4-fe4b-4f4b-9e55-5f51954d3cd6")
-		(property "Reference" "R20"
+		(property "Reference" "R32"
 			(at 325.12 117.856 90)
 			(effects
 				(font
@@ -9593,7 +9593,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R20")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -9608,7 +9608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11b4810a-8ba1-4eb2-ba88-a9f498ca82ff")
-		(property "Reference" "C92"
+		(property "Reference" "C56"
 			(at 187.198 227.584 0)
 			(effects
 				(font
@@ -9624,7 +9624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 190.5 229.87 0)
 			(effects
 				(font
@@ -9678,7 +9678,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C92")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -9693,7 +9693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1499079f-f3a8-47e4-8878-d3ecd3840037")
-		(property "Reference" "R31"
+		(property "Reference" "R13"
 			(at 96.012 176.022 0)
 			(effects
 				(font
@@ -9763,7 +9763,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R31")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9778,7 +9778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14f63fa5-bcd2-473c-b976-3bcb5231af43")
-		(property "Reference" "C61"
+		(property "Reference" "C95"
 			(at 373.888 155.194 0)
 			(effects
 				(font
@@ -9794,7 +9794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 377.19 157.48 0)
 			(effects
 				(font
@@ -9848,7 +9848,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C61")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -9863,7 +9863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16f0e273-d375-444f-b84a-6e0c4b7e147b")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 107.442 117.856 90)
 			(effects
 				(font
@@ -9933,7 +9933,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -9948,7 +9948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "175cfad7-7466-47e3-9870-7d0782d14b5b")
-		(property "Reference" "R38"
+		(property "Reference" "R34"
 			(at 326.39 230.886 90)
 			(effects
 				(font
@@ -10018,7 +10018,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R38")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -10034,7 +10034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1889242a-1d48-49ac-9f98-0d90a7dc0610")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR029"
 			(at 377.19 140.97 0)
 			(effects
 				(font
@@ -10084,7 +10084,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR020")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10099,7 +10099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1924fc49-acf5-4017-a963-1833d8d4010f")
-		(property "Reference" "C65"
+		(property "Reference" "C87"
 			(at 352.552 167.894 90)
 			(effects
 				(font
@@ -10115,7 +10115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 355.6 168.91 0)
 			(effects
 				(font
@@ -10169,7 +10169,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C65")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -10250,7 +10250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b5d7313-f16b-4c0b-8371-33fd6c52f3a0")
-		(property "Reference" "C23"
+		(property "Reference" "C85"
 			(at 351.282 54.864 90)
 			(effects
 				(font
@@ -10266,7 +10266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 354.33 55.88 0)
 			(effects
 				(font
@@ -10320,7 +10320,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C23")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -10335,7 +10335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c2a6b60-8117-42ce-86e8-1e60329e2bfb")
-		(property "Reference" "C69"
+		(property "Reference" "C47"
 			(at 174.498 170.434 0)
 			(effects
 				(font
@@ -10351,7 +10351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 177.8 172.72 0)
 			(effects
 				(font
@@ -10405,7 +10405,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C69")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -10421,7 +10421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c349083-9f65-42d0-8719-2988420e51d6")
-		(property "Reference" "U11"
+		(property "Reference" "U13"
 			(at 340.36 158.75 0)
 			(effects
 				(font
@@ -10504,7 +10504,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "U11")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -10519,7 +10519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e22209d-f755-4162-a7c3-ba14e2f13e72")
-		(property "Reference" "C30"
+		(property "Reference" "C73"
 			(at 298.958 58.674 0)
 			(effects
 				(font
@@ -10535,7 +10535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 302.26 60.96 0)
 			(effects
 				(font
@@ -10589,7 +10589,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C30")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -10604,7 +10604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e746f7d-ec6c-4a36-918e-77e92992f27e")
-		(property "Reference" "C51"
+		(property "Reference" "C74"
 			(at 300.228 115.824 0)
 			(effects
 				(font
@@ -10620,7 +10620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 303.53 118.11 0)
 			(effects
 				(font
@@ -10674,7 +10674,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C51")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -10689,7 +10689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20a4fa0f-8f31-4a70-b14f-4e4b2a7c393d")
-		(property "Reference" "C16"
+		(property "Reference" "C41"
 			(at 124.968 42.164 0)
 			(effects
 				(font
@@ -10705,7 +10705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127 44.45 0)
 			(effects
 				(font
@@ -10759,7 +10759,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C16")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -10774,7 +10774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2214e475-589b-4c96-bd2d-f4d831f8ac75")
-		(property "Reference" "C86"
+		(property "Reference" "C88"
 			(at 353.822 225.044 90)
 			(effects
 				(font
@@ -10790,7 +10790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 356.87 226.06 0)
 			(effects
 				(font
@@ -10844,7 +10844,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C86")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -10859,7 +10859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "246e3f71-1409-4192-b6fd-12ef8607561e")
-		(property "Reference" "C58"
+		(property "Reference" "C43"
 			(at 127.508 153.924 0)
 			(effects
 				(font
@@ -10875,7 +10875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 129.54 156.21 0)
 			(effects
 				(font
@@ -10929,7 +10929,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C58")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -10944,7 +10944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25736cdd-093f-475b-8570-3855504cacd4")
-		(property "Reference" "R12"
+		(property "Reference" "R39"
 			(at 362.712 60.706 90)
 			(effects
 				(font
@@ -11014,7 +11014,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R12")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -11029,7 +11029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a0366b1-97bc-4461-aea2-050d66afff4f")
-		(property "Reference" "C95"
+		(property "Reference" "C84"
 			(at 314.198 228.854 0)
 			(effects
 				(font
@@ -11045,7 +11045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 317.5 231.14 0)
 			(effects
 				(font
@@ -11099,7 +11099,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C95")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -11114,7 +11114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ae37b84-22a8-425a-ad62-7bac6620a794")
-		(property "Reference" "C63"
+		(property "Reference" "C31"
 			(at 98.552 166.624 90)
 			(effects
 				(font
@@ -11130,7 +11130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.6 167.64 0)
 			(effects
 				(font
@@ -11184,7 +11184,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C63")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -11200,7 +11200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b3aee81-899b-40b7-87ee-bccd8563e156")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 251.46 139.7 0)
 			(effects
 				(font
@@ -11250,7 +11250,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11266,7 +11266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c2348cf-aaec-4970-904e-6009f112cd5f")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR023"
 			(at 339.09 76.2 0)
 			(effects
 				(font
@@ -11316,7 +11316,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR011")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11331,7 +11331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c860bdc-2040-48bd-af07-5881cd2316f9")
-		(property "Reference" "C48"
+		(property "Reference" "C46"
 			(at 173.228 115.824 0)
 			(effects
 				(font
@@ -11347,7 +11347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.53 118.11 0)
 			(effects
 				(font
@@ -11401,7 +11401,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C48")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -11416,7 +11416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2eacdd58-e312-4d20-bf1e-5f901e170455")
-		(property "Reference" "C44"
+		(property "Reference" "C86"
 			(at 352.552 112.014 90)
 			(effects
 				(font
@@ -11432,7 +11432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 355.6 113.03 0)
 			(effects
 				(font
@@ -11486,7 +11486,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C44")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -11502,7 +11502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30f3507e-d1b0-4433-8b00-8dcaf935031d")
-		(property "Reference" "U9"
+		(property "Reference" "U5"
 			(at 86.36 157.48 0)
 			(effects
 				(font
@@ -11585,7 +11585,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "U9")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -11601,7 +11601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32b0d82f-29b4-446e-9212-e4462174f114")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR015"
 			(at 213.36 76.2 0)
 			(effects
 				(font
@@ -11651,7 +11651,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR010")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11666,7 +11666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33fa2f84-998e-4e9d-a99b-bddbb055aaa2")
-		(property "Reference" "C31"
+		(property "Reference" "C77"
 			(at 305.308 58.674 0)
 			(effects
 				(font
@@ -11682,7 +11682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 308.61 60.96 0)
 			(effects
 				(font
@@ -11736,7 +11736,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C31")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -11751,7 +11751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35b588c7-29d4-43c6-8973-862ba0ebbb53")
-		(property "Reference" "C36"
+		(property "Reference" "C38"
 			(at 117.348 99.314 0)
 			(effects
 				(font
@@ -11767,7 +11767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.65 101.6 0)
 			(effects
 				(font
@@ -11821,7 +11821,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C36")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -11836,7 +11836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3603f8a3-41b5-4cd9-82f9-f7bb175ee64f")
-		(property "Reference" "C26"
+		(property "Reference" "C25"
 			(at 56.388 58.674 0)
 			(effects
 				(font
@@ -11852,7 +11852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.69 60.96 0)
 			(effects
 				(font
@@ -11906,7 +11906,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C26")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -11921,7 +11921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "377d37d4-7a94-4804-a629-93373d73ff4d")
-		(property "Reference" "C87"
+		(property "Reference" "C20"
 			(at 46.228 227.584 0)
 			(effects
 				(font
@@ -11937,7 +11937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.53 229.87 0)
 			(effects
 				(font
@@ -11991,7 +11991,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C87")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -12006,7 +12006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "393884b9-0561-4852-8e56-e85f62030e97")
-		(property "Reference" "C35"
+		(property "Reference" "C89"
 			(at 368.3 71.12 90)
 			(effects
 				(font
@@ -12022,7 +12022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 365.76 68.58 0)
 			(effects
 				(font
@@ -12076,7 +12076,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C35")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -12091,7 +12091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "395b734d-bfad-4623-96e8-2696c6228268")
-		(property "Reference" "C75"
+		(property "Reference" "C35"
 			(at 115.57 182.88 90)
 			(effects
 				(font
@@ -12107,7 +12107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.03 180.34 0)
 			(effects
 				(font
@@ -12161,7 +12161,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C75")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -12177,7 +12177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3960a6c9-966e-42b1-8f9d-5051f880279e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR020"
 			(at 250.19 85.09 0)
 			(effects
 				(font
@@ -12227,7 +12227,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR013")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12242,7 +12242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3992af6b-d2fa-4d36-8863-8985e984d116")
-		(property "Reference" "C50"
+		(property "Reference" "C54"
 			(at 185.928 115.824 0)
 			(effects
 				(font
@@ -12258,7 +12258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 189.23 118.11 0)
 			(effects
 				(font
@@ -12312,7 +12312,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C50")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -12327,7 +12327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a1d2e5c-93ef-458d-bcf8-c1b48a4844d6")
-		(property "Reference" "C54"
+		(property "Reference" "C34"
 			(at 113.03 128.27 90)
 			(effects
 				(font
@@ -12343,7 +12343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.49 125.73 0)
 			(effects
 				(font
@@ -12397,7 +12397,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C54")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -12412,7 +12412,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3da8ddff-d35c-4aa1-8a1a-1b8f8a3bd874")
-		(property "Reference" "C25"
+		(property "Reference" "C21"
 			(at 50.038 58.674 0)
 			(effects
 				(font
@@ -12428,7 +12428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.34 60.96 0)
 			(effects
 				(font
@@ -12482,7 +12482,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C25")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -12498,7 +12498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fba560a-0c05-40e2-8261-1e22e393e924")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR027"
 			(at 375.92 27.94 0)
 			(effects
 				(font
@@ -12548,7 +12548,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR08")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12563,7 +12563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43b8ff17-7fdb-47cc-9dcf-2f142615f0be")
-		(property "Reference" "C62"
+		(property "Reference" "C99"
 			(at 381.508 155.194 0)
 			(effects
 				(font
@@ -12579,7 +12579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 383.54 157.48 0)
 			(effects
 				(font
@@ -12633,7 +12633,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C62")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -12648,7 +12648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44f5b974-a8e3-4f06-9006-9341013004ef")
-		(property "Reference" "C39"
+		(property "Reference" "C70"
 			(at 254.508 99.314 0)
 			(effects
 				(font
@@ -12664,7 +12664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 256.54 101.6 0)
 			(effects
 				(font
@@ -12718,7 +12718,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C39")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -12733,7 +12733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "468430ac-7f24-42da-8b5b-c20fb11a9492")
-		(property "Reference" "C74"
+		(property "Reference" "C83"
 			(at 312.928 171.704 0)
 			(effects
 				(font
@@ -12749,7 +12749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 316.23 173.99 0)
 			(effects
 				(font
@@ -12803,7 +12803,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C74")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -12818,7 +12818,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ba17306-7cb4-47ac-9208-6c7eb30adcee")
-		(property "Reference" "C22"
+		(property "Reference" "C57"
 			(at 225.552 54.864 90)
 			(effects
 				(font
@@ -12834,7 +12834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 228.6 55.88 0)
 			(effects
 				(font
@@ -12888,7 +12888,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C22")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -12903,7 +12903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4de35c0a-0e91-4735-9697-2e30ef303be1")
-		(property "Reference" "C59"
+		(property "Reference" "C67"
 			(at 248.158 153.924 0)
 			(effects
 				(font
@@ -12919,7 +12919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.46 156.21 0)
 			(effects
 				(font
@@ -12973,7 +12973,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C59")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -12988,7 +12988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e8b299c-74e0-43bd-beb7-f1980a12d2fd")
-		(property "Reference" "R16"
+		(property "Reference" "R8"
 			(at 68.58 117.856 90)
 			(effects
 				(font
@@ -13058,7 +13058,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R16")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13073,7 +13073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50349a19-65a2-4db5-b169-b685b8d8ed03")
-		(property "Reference" "C18"
+		(property "Reference" "C69"
 			(at 254.508 42.164 0)
 			(effects
 				(font
@@ -13089,7 +13089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 256.54 44.45 0)
 			(effects
 				(font
@@ -13143,7 +13143,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C18")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -13158,7 +13158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50553ab4-a256-483c-b840-b8fa4499d602")
-		(property "Reference" "R25"
+		(property "Reference" "R9"
 			(at 71.12 172.466 90)
 			(effects
 				(font
@@ -13228,7 +13228,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R25")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13243,7 +13243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "529d593f-f7d5-4371-a67b-157812c5ea15")
-		(property "Reference" "L7"
+		(property "Reference" "L9"
 			(at 240.03 108.712 90)
 			(effects
 				(font
@@ -13313,7 +13313,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "L7")
+					(reference "L9")
 					(unit 1)
 				)
 			)
@@ -13328,7 +13328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59d83915-65dc-4320-b5da-ba3017882227")
-		(property "Reference" "C32"
+		(property "Reference" "C81"
 			(at 311.658 58.674 0)
 			(effects
 				(font
@@ -13344,7 +13344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 314.96 60.96 0)
 			(effects
 				(font
@@ -13398,7 +13398,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C32")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -13499,7 +13499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b5758f2-357c-4ea7-b19d-70b66b46a156")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR011"
 			(at 120.65 27.94 0)
 			(effects
 				(font
@@ -13549,7 +13549,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR06")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -13564,7 +13564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c383c6d-2e93-40fd-a72c-8e83a4882b71")
-		(property "Reference" "L6"
+		(property "Reference" "L5"
 			(at 110.49 108.712 90)
 			(effects
 				(font
@@ -13634,7 +13634,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "L6")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -13734,7 +13734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d27aa9e-66aa-49e2-a0ff-6e1c9b9f1b4d")
-		(property "Reference" "R26"
+		(property "Reference" "R17"
 			(at 109.982 172.466 90)
 			(effects
 				(font
@@ -13804,7 +13804,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R26")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -13820,7 +13820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5df4e4e6-7d80-409d-8c80-d3c35aef9265")
-		(property "Reference" "U5"
+		(property "Reference" "U11"
 			(at 339.09 45.72 0)
 			(effects
 				(font
@@ -13903,7 +13903,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "U5")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -13918,7 +13918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e511192-dde1-4ece-8fdd-8380ebe96486")
-		(property "Reference" "C91"
+		(property "Reference" "C52"
 			(at 180.848 227.584 0)
 			(effects
 				(font
@@ -13934,7 +13934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 184.15 229.87 0)
 			(effects
 				(font
@@ -13988,7 +13988,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C91")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -14003,7 +14003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6005c527-ce84-475b-a35e-24d2193103e1")
-		(property "Reference" "L8"
+		(property "Reference" "L13"
 			(at 367.03 108.712 90)
 			(effects
 				(font
@@ -14073,7 +14073,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "L8")
+					(reference "L13")
 					(unit 1)
 				)
 			)
@@ -14088,7 +14088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60503e3e-8f6c-459b-a122-14c5fe7c5707")
-		(property "Reference" "C43"
+		(property "Reference" "C58"
 			(at 225.552 112.014 90)
 			(effects
 				(font
@@ -14104,7 +14104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 228.6 113.03 0)
 			(effects
 				(font
@@ -14158,7 +14158,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C43")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -14173,7 +14173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6295f19a-79a7-435e-8d05-c7160fd73d49")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 198.12 117.856 90)
 			(effects
 				(font
@@ -14243,7 +14243,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -14258,7 +14258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64b9e00d-6eaa-4881-ae74-28096a44080c")
-		(property "Reference" "R39"
+		(property "Reference" "R42"
 			(at 365.252 230.886 90)
 			(effects
 				(font
@@ -14328,7 +14328,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R39")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -14344,7 +14344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6591c7b7-783b-46b7-834b-b209ec05dbdf")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR013"
 			(at 123.19 139.7 0)
 			(effects
 				(font
@@ -14394,7 +14394,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR018")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -14409,7 +14409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6655827e-9e20-4a28-9dab-c7a68e7b27ed")
-		(property "Reference" "R33"
+		(property "Reference" "R37"
 			(at 350.012 177.292 0)
 			(effects
 				(font
@@ -14479,7 +14479,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R33")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -14494,7 +14494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6814b6b9-2b7e-472d-9e02-418c7d07e5c4")
-		(property "Reference" "L13"
+		(property "Reference" "L11"
 			(at 241.3 220.472 90)
 			(effects
 				(font
@@ -14564,7 +14564,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "L13")
+					(reference "L11")
 					(unit 1)
 				)
 			)
@@ -14579,7 +14579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "698d13b2-63aa-43d0-96eb-e99f58aa7512")
-		(property "Reference" "C17"
+		(property "Reference" "C65"
 			(at 246.888 42.164 0)
 			(effects
 				(font
@@ -14595,7 +14595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 250.19 44.45 0)
 			(effects
 				(font
@@ -14649,7 +14649,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C17")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -14664,7 +14664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69e6a011-19e6-4769-9f90-9fb85a4f1c59")
-		(property "Reference" "C98"
+		(property "Reference" "C92"
 			(at 370.84 241.3 90)
 			(effects
 				(font
@@ -14680,7 +14680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 368.3 238.76 0)
 			(effects
 				(font
@@ -14734,7 +14734,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C98")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -14749,7 +14749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6aa6d409-f0dc-41ae-b049-9556b93ce3dd")
-		(property "Reference" "C67"
+		(property "Reference" "C23"
 			(at 52.578 170.434 0)
 			(effects
 				(font
@@ -14765,7 +14765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.88 172.72 0)
 			(effects
 				(font
@@ -14819,7 +14819,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C67")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -14835,7 +14835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bd8be3a-3efc-466b-af2e-246ab00ff914")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR010"
 			(at 86.36 245.11 0)
 			(effects
 				(font
@@ -14885,7 +14885,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR027")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14900,7 +14900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f20bae3-ac6f-4287-9ad4-f23e94cd3d93")
-		(property "Reference" "C42"
+		(property "Reference" "C30"
 			(at 96.012 112.014 90)
 			(effects
 				(font
@@ -14916,7 +14916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 99.06 113.03 0)
 			(effects
 				(font
@@ -14970,7 +14970,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C42")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -14985,7 +14985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "712eb9d2-0806-45ab-bbc8-e983860f0575")
-		(property "Reference" "L3"
+		(property "Reference" "L4"
 			(at 110.49 51.562 90)
 			(effects
 				(font
@@ -15055,7 +15055,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "L3")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -15070,7 +15070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "727b234b-8c5e-4dd9-9abc-4c94f569f0c5")
-		(property "Reference" "C71"
+		(property "Reference" "C55"
 			(at 187.198 170.434 0)
 			(effects
 				(font
@@ -15086,7 +15086,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 190.5 172.72 0)
 			(effects
 				(font
@@ -15140,7 +15140,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C71")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -15155,7 +15155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72e6ca3e-0a50-479c-99c6-41604394557d")
-		(property "Reference" "C66"
+		(property "Reference" "C19"
 			(at 46.228 170.434 0)
 			(effects
 				(font
@@ -15171,7 +15171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.53 172.72 0)
 			(effects
 				(font
@@ -15225,7 +15225,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C66")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -15241,7 +15241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73fa1799-cb2b-4435-93a7-e46012df5f30")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR014"
 			(at 123.19 196.85 0)
 			(effects
 				(font
@@ -15291,7 +15291,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR024")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15306,7 +15306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7410fc8f-1675-48f0-8a35-a76f45504a4c")
-		(property "Reference" "C88"
+		(property "Reference" "C24"
 			(at 52.578 227.584 0)
 			(effects
 				(font
@@ -15322,7 +15322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.88 229.87 0)
 			(effects
 				(font
@@ -15376,7 +15376,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C88")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -15391,7 +15391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75f454ff-4b87-4dae-b0cd-6324efba8a38")
-		(property "Reference" "R22"
+		(property "Reference" "R12"
 			(at 93.472 121.412 0)
 			(effects
 				(font
@@ -15461,7 +15461,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R22")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -15477,7 +15477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7649c52e-2a6d-4dd8-9be0-3cd8e166751f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 340.36 189.23 0)
 			(effects
 				(font
@@ -15527,7 +15527,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -15542,7 +15542,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7671f838-401d-4606-8d60-1015668d8dbb")
-		(property "Reference" "C90"
+		(property "Reference" "C48"
 			(at 174.498 227.584 0)
 			(effects
 				(font
@@ -15558,7 +15558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 177.8 229.87 0)
 			(effects
 				(font
@@ -15612,7 +15612,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C90")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -15627,7 +15627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7776be3e-b6d4-45b3-b537-f9443f305ffc")
-		(property "Reference" "C94"
+		(property "Reference" "C80"
 			(at 307.848 228.854 0)
 			(effects
 				(font
@@ -15643,7 +15643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 311.15 231.14 0)
 			(effects
 				(font
@@ -15697,7 +15697,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C94")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -15712,7 +15712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "797feea2-5550-4ca6-b17c-415249d0833f")
-		(property "Reference" "C78"
+		(property "Reference" "C40"
 			(at 119.888 211.074 0)
 			(effects
 				(font
@@ -15728,7 +15728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 213.36 0)
 			(effects
 				(font
@@ -15782,7 +15782,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C78")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -15797,7 +15797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79822efd-b038-4e5a-a8fc-8b1c1b30d8ea")
-		(property "Reference" "C60"
+		(property "Reference" "C71"
 			(at 255.778 153.924 0)
 			(effects
 				(font
@@ -15813,7 +15813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 257.81 156.21 0)
 			(effects
 				(font
@@ -15867,7 +15867,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C60")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -15883,7 +15883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79d1d9b7-858c-4b98-b1c7-cbe06db79b77")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR019"
 			(at 250.19 27.94 0)
 			(effects
 				(font
@@ -15933,7 +15933,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR07")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -15948,7 +15948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79ff98c1-5e1f-47d3-a6ed-331e746585df")
-		(property "Reference" "R14"
+		(property "Reference" "R23"
 			(at 223.012 64.262 0)
 			(effects
 				(font
@@ -16018,7 +16018,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R14")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -16132,7 +16132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b95b1a2-5f3e-4807-b2c6-a810167410f3")
-		(property "Reference" "C45"
+		(property "Reference" "C18"
 			(at 43.688 115.824 0)
 			(effects
 				(font
@@ -16148,7 +16148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.99 118.11 0)
 			(effects
 				(font
@@ -16202,7 +16202,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C45")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -16217,7 +16217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7de9760d-1647-472e-9b65-8ea98c563832")
-		(property "Reference" "C82"
+		(property "Reference" "C96"
 			(at 375.158 212.344 0)
 			(effects
 				(font
@@ -16233,7 +16233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 378.46 214.63 0)
 			(effects
 				(font
@@ -16287,7 +16287,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C82")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -16302,7 +16302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "824d9838-0d5b-49a8-969f-9e0b8f24d830")
-		(property "Reference" "C15"
+		(property "Reference" "C37"
 			(at 117.348 42.164 0)
 			(effects
 				(font
@@ -16372,7 +16372,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C15")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -16387,7 +16387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8258f003-99a9-410f-b099-e556bd90f5ac")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 93.472 64.262 0)
 			(effects
 				(font
@@ -16457,7 +16457,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -16472,7 +16472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83a488a4-7e8a-461d-b9e3-8820b0fe0b41")
-		(property "Reference" "L12"
+		(property "Reference" "L7"
 			(at 113.03 220.472 90)
 			(effects
 				(font
@@ -16542,7 +16542,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "L12")
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -16557,7 +16557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83c717ca-65f2-4be3-ae81-43b7da43bdd9")
-		(property "Reference" "C73"
+		(property "Reference" "C79"
 			(at 306.578 171.704 0)
 			(effects
 				(font
@@ -16573,7 +16573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 309.88 173.99 0)
 			(effects
 				(font
@@ -16627,7 +16627,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C73")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -16642,7 +16642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8412990c-f654-4a47-90ed-6a60fbb435f0")
-		(property "Reference" "C83"
+		(property "Reference" "C100"
 			(at 382.778 212.344 0)
 			(effects
 				(font
@@ -16658,7 +16658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 384.81 214.63 0)
 			(effects
 				(font
@@ -16712,7 +16712,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C83")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -16727,7 +16727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "859c989c-7084-45ef-9ba5-eda89ad58e21")
-		(property "Reference" "C53"
+		(property "Reference" "C82"
 			(at 312.928 115.824 0)
 			(effects
 				(font
@@ -16743,7 +16743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 316.23 118.11 0)
 			(effects
 				(font
@@ -16797,7 +16797,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C53")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -16812,7 +16812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85eb4ed5-ebe6-4f2c-9ee9-ca7c31dcad25")
-		(property "Reference" "C56"
+		(property "Reference" "C90"
 			(at 369.57 128.27 90)
 			(effects
 				(font
@@ -16828,7 +16828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 367.03 125.73 0)
 			(effects
 				(font
@@ -16882,7 +16882,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C56")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -16898,7 +16898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88f7f95a-2a5e-4249-b901-cf00fb6040aa")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 213.36 102.87 0)
 			(effects
 				(font
@@ -16981,7 +16981,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -16996,7 +16996,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89c081d7-2683-4305-9a39-e32e5bfb7cd2")
-		(property "Reference" "C89"
+		(property "Reference" "C28"
 			(at 58.928 227.584 0)
 			(effects
 				(font
@@ -17012,7 +17012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 62.23 229.87 0)
 			(effects
 				(font
@@ -17066,7 +17066,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C89")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -17081,7 +17081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cfa671a-a694-4b65-a06a-5b0e32bfd0d1")
-		(property "Reference" "C76"
+		(property "Reference" "C63"
 			(at 243.84 182.88 90)
 			(effects
 				(font
@@ -17097,7 +17097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 241.3 180.34 0)
 			(effects
 				(font
@@ -17151,7 +17151,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C76")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -17232,7 +17232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f77ec98-578a-40e4-9fb3-eddb1eb4bd1a")
-		(property "Reference" "C68"
+		(property "Reference" "C27"
 			(at 58.928 170.434 0)
 			(effects
 				(font
@@ -17248,7 +17248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 62.23 172.72 0)
 			(effects
 				(font
@@ -17302,7 +17302,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C68")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -17318,7 +17318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fda35c3-883a-4bbe-83d4-986417851b48")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR030"
 			(at 378.46 198.12 0)
 			(effects
 				(font
@@ -17368,7 +17368,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR026")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -17383,7 +17383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90e7cb61-fbc2-43e7-bc27-c1e0da0953f7")
-		(property "Reference" "C49"
+		(property "Reference" "C50"
 			(at 179.578 115.824 0)
 			(effects
 				(font
@@ -17399,7 +17399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.88 118.11 0)
 			(effects
 				(font
@@ -17453,7 +17453,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C49")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -17468,7 +17468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "915640bf-46ae-4ff5-be07-04145ee383dd")
-		(property "Reference" "C37"
+		(property "Reference" "C42"
 			(at 124.968 99.314 0)
 			(effects
 				(font
@@ -17484,7 +17484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127 101.6 0)
 			(effects
 				(font
@@ -17538,7 +17538,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C37")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -17553,7 +17553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91bab559-2aa8-4c3f-abd9-0a92ae5bff45")
-		(property "Reference" "R10"
+		(property "Reference" "R27"
 			(at 236.982 60.706 90)
 			(effects
 				(font
@@ -17623,7 +17623,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R10")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -17639,7 +17639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "975720fc-6fbd-42ef-a8f5-ccbfca6c1354")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 83.82 102.87 0)
 			(effects
 				(font
@@ -17722,7 +17722,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -17737,7 +17737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "976765d3-07cb-4d63-ba90-4491cafb9481")
-		(property "Reference" "R27"
+		(property "Reference" "R21"
 			(at 199.39 172.466 90)
 			(effects
 				(font
@@ -17807,7 +17807,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R27")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -17822,7 +17822,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "994d7d6a-2261-4c34-9882-ce5ea69ed01f")
-		(property "Reference" "R19"
+		(property "Reference" "R28"
 			(at 236.982 117.856 90)
 			(effects
 				(font
@@ -17892,7 +17892,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R19")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -17907,7 +17907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9acd3efd-2f39-460c-a096-84e1f4256099")
-		(property "Reference" "C28"
+		(property "Reference" "C49"
 			(at 179.578 58.674 0)
 			(effects
 				(font
@@ -17923,7 +17923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.88 60.96 0)
 			(effects
 				(font
@@ -17977,7 +17977,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C28")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -17992,7 +17992,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cc61393-44c7-4440-822b-2d156996222a")
-		(property "Reference" "L4"
+		(property "Reference" "L8"
 			(at 240.03 51.562 90)
 			(effects
 				(font
@@ -18062,7 +18062,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "L4")
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -18093,7 +18093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.49 68.58 0)
 			(effects
 				(font
@@ -18163,7 +18163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5461ed3-f32a-499b-affc-4bb007c3755a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR018"
 			(at 214.63 245.11 0)
 			(effects
 				(font
@@ -18213,7 +18213,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR028")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -18228,7 +18228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5625cc4-726b-4e16-9104-8965fe011cac")
-		(property "Reference" "R15"
+		(property "Reference" "R35"
 			(at 348.742 64.262 0)
 			(effects
 				(font
@@ -18298,7 +18298,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R15")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -18313,7 +18313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a92d5094-2f30-4638-be87-8a8fb9826463")
-		(property "Reference" "C34"
+		(property "Reference" "C61"
 			(at 242.57 71.12 90)
 			(effects
 				(font
@@ -18329,7 +18329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 240.03 68.58 0)
 			(effects
 				(font
@@ -18383,7 +18383,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C34")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -18398,7 +18398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a95b748e-2547-4a30-995a-fc3a6e4c84c5")
-		(property "Reference" "L9"
+		(property "Reference" "L6"
 			(at 113.03 163.322 90)
 			(effects
 				(font
@@ -18468,7 +18468,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "L9")
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -18483,7 +18483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad49529a-891b-4916-9fb3-a2db89f71806")
-		(property "Reference" "R41"
+		(property "Reference" "R26"
 			(at 224.282 233.172 0)
 			(effects
 				(font
@@ -18553,7 +18553,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R41")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -18569,7 +18569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0233b49-d04b-4e5a-a61d-b077224b7142")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR024"
 			(at 340.36 133.35 0)
 			(effects
 				(font
@@ -18619,7 +18619,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR017")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -18635,7 +18635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b22f980c-320b-4bf6-8058-6611b3bafc77")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR017"
 			(at 214.63 187.96 0)
 			(effects
 				(font
@@ -18685,7 +18685,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR022")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -18701,7 +18701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b380f4ec-7b1d-4fb7-b62c-bd474c9df1b5")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR08"
 			(at 83.82 133.35 0)
 			(effects
 				(font
@@ -18751,7 +18751,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR015")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -18766,7 +18766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3de9faa-983c-49ea-a0b0-4ccd3e70f16a")
-		(property "Reference" "R42"
+		(property "Reference" "R38"
 			(at 351.282 234.442 0)
 			(effects
 				(font
@@ -18836,7 +18836,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R42")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -18851,7 +18851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b486d372-ad0a-45b1-8d00-597deb79c841")
-		(property "Reference" "C21"
+		(property "Reference" "C29"
 			(at 96.012 54.864 90)
 			(effects
 				(font
@@ -18867,7 +18867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 99.06 55.88 0)
 			(effects
 				(font
@@ -18921,7 +18921,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C21")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -18936,7 +18936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4c74970-9c93-44c4-875a-03d680d49c87")
-		(property "Reference" "C27"
+		(property "Reference" "C45"
 			(at 173.228 58.674 0)
 			(effects
 				(font
@@ -18952,7 +18952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.53 60.96 0)
 			(effects
 				(font
@@ -19006,7 +19006,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C27")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -19021,7 +19021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b73cf782-94b2-4ea9-977a-a7a6947d8ad8")
-		(property "Reference" "C38"
+		(property "Reference" "C66"
 			(at 246.888 99.314 0)
 			(effects
 				(font
@@ -19037,7 +19037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 250.19 101.6 0)
 			(effects
 				(font
@@ -19091,7 +19091,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C38")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -19106,7 +19106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b85e3dc5-582d-4389-9571-7c37f179462f")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 223.012 121.412 0)
 			(effects
 				(font
@@ -19176,7 +19176,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -19191,7 +19191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd6a678e-9b8c-424a-8573-4b7beef8d885")
-		(property "Reference" "C81"
+		(property "Reference" "C72"
 			(at 255.778 211.074 0)
 			(effects
 				(font
@@ -19207,7 +19207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 257.81 213.36 0)
 			(effects
 				(font
@@ -19261,7 +19261,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C81")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -19276,7 +19276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c04a2cea-ec3d-4898-a596-4f0969586ec8")
-		(property "Reference" "C41"
+		(property "Reference" "C98"
 			(at 381.508 99.314 0)
 			(effects
 				(font
@@ -19292,7 +19292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 383.54 101.6 0)
 			(effects
 				(font
@@ -19346,7 +19346,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C41")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -19361,7 +19361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c08dc818-ee76-4a97-954f-48ba2636d12a")
-		(property "Reference" "C55"
+		(property "Reference" "C62"
 			(at 242.57 128.27 90)
 			(effects
 				(font
@@ -19377,7 +19377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 240.03 125.73 0)
 			(effects
 				(font
@@ -19431,7 +19431,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C55")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -19446,7 +19446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2c10e05-c1e2-42df-ac26-7ae9ca296c27")
-		(property "Reference" "C79"
+		(property "Reference" "C44"
 			(at 127.508 211.074 0)
 			(effects
 				(font
@@ -19462,7 +19462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 129.54 213.36 0)
 			(effects
 				(font
@@ -19516,7 +19516,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C79")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -19531,7 +19531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6577853-b2ee-4bd9-9c2d-ebdb74ee5d16")
-		(property "Reference" "C40"
+		(property "Reference" "C94"
 			(at 373.888 99.314 0)
 			(effects
 				(font
@@ -19547,7 +19547,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 377.19 101.6 0)
 			(effects
 				(font
@@ -19601,7 +19601,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C40")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -19616,7 +19616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8992f61-7cd2-4f51-a9ea-0db279f71b11")
-		(property "Reference" "C72"
+		(property "Reference" "C75"
 			(at 300.228 171.704 0)
 			(effects
 				(font
@@ -19632,7 +19632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 303.53 173.99 0)
 			(effects
 				(font
@@ -19686,7 +19686,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C72")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -19702,7 +19702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9ab3383-984f-4563-80ed-dc2cf8960177")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR026"
 			(at 341.63 246.38 0)
 			(effects
 				(font
@@ -19752,7 +19752,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR029")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -19768,7 +19768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0605a78-4590-4566-99ad-79b5a35328c8")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -19818,7 +19818,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -19833,7 +19833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d16f5c6d-9f4b-4eba-b571-fe80fc6c16b7")
-		(property "Reference" "C52"
+		(property "Reference" "C78"
 			(at 306.578 115.824 0)
 			(effects
 				(font
@@ -19849,7 +19849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 309.88 118.11 0)
 			(effects
 				(font
@@ -19903,7 +19903,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C52")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -19918,7 +19918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4e37ca5-b6c2-49e7-93f2-470d5b5d23c1")
-		(property "Reference" "C64"
+		(property "Reference" "C59"
 			(at 226.822 166.624 90)
 			(effects
 				(font
@@ -19934,7 +19934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 229.87 167.64 0)
 			(effects
 				(font
@@ -19988,7 +19988,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C64")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -20003,7 +20003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4edbf65-29c9-4150-a18f-129d4ddd3dfa")
-		(property "Reference" "C80"
+		(property "Reference" "C68"
 			(at 248.158 211.074 0)
 			(effects
 				(font
@@ -20019,7 +20019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.46 213.36 0)
 			(effects
 				(font
@@ -20073,7 +20073,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C80")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -20088,7 +20088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d53b6b7d-f7c3-458b-9c41-5b74bf5185f4")
-		(property "Reference" "C77"
+		(property "Reference" "C91"
 			(at 369.57 184.15 90)
 			(effects
 				(font
@@ -20104,7 +20104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 367.03 181.61 0)
 			(effects
 				(font
@@ -20158,7 +20158,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C77")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -20173,7 +20173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8d8b4e7-36a1-44a9-bda7-23b5ad3755f7")
-		(property "Reference" "R34"
+		(property "Reference" "R10"
 			(at 71.12 229.616 90)
 			(effects
 				(font
@@ -20243,7 +20243,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R34")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -20258,7 +20258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbf7b1cf-f0f8-4a3e-92a2-0fb6ef93746c")
-		(property "Reference" "L14"
+		(property "Reference" "L15"
 			(at 368.3 221.742 90)
 			(effects
 				(font
@@ -20328,7 +20328,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "L14")
+					(reference "L15")
 					(unit 1)
 				)
 			)
@@ -20344,7 +20344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddbf7977-cab4-4b46-9eb5-4629943e2c6a")
-		(property "Reference" "U10"
+		(property "Reference" "U9"
 			(at 214.63 157.48 0)
 			(effects
 				(font
@@ -20427,7 +20427,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "U10")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -20442,7 +20442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dde6b28a-6c88-4de5-866f-a99c904622d7")
-		(property "Reference" "C96"
+		(property "Reference" "C36"
 			(at 115.57 240.03 90)
 			(effects
 				(font
@@ -20458,7 +20458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.03 237.49 0)
 			(effects
 				(font
@@ -20512,7 +20512,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C96")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -20527,7 +20527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0a388e0-78b8-4985-8567-33cb245cc3b6")
-		(property "Reference" "R24"
+		(property "Reference" "R36"
 			(at 350.012 121.412 0)
 			(effects
 				(font
@@ -20597,7 +20597,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R24")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -20613,7 +20613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e15c5e56-0624-49b0-b251-ba27721f74be")
-		(property "Reference" "U13"
+		(property "Reference" "U10"
 			(at 214.63 214.63 0)
 			(effects
 				(font
@@ -20696,7 +20696,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "U13")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -20711,7 +20711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e17dd500-de6e-416a-8d3d-78acbfacc015")
-		(property "Reference" "R8"
+		(property "Reference" "R15"
 			(at 107.442 60.706 90)
 			(effects
 				(font
@@ -20781,7 +20781,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R8")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -20796,7 +20796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4bf7ae0-2146-4414-8112-057cb1a2dfbc")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 238.252 172.466 90)
 			(effects
 				(font
@@ -20866,7 +20866,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -20881,7 +20881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e967f3c1-034a-4161-b73a-b0db60c85031")
-		(property "Reference" "C97"
+		(property "Reference" "C64"
 			(at 243.84 240.03 90)
 			(effects
 				(font
@@ -20897,7 +20897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 241.3 237.49 0)
 			(effects
 				(font
@@ -20951,7 +20951,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C97")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -20967,7 +20967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecdd9ce4-1693-42d6-8142-d5b459826c2e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR09"
 			(at 86.36 187.96 0)
 			(effects
 				(font
@@ -21017,7 +21017,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "#PWR021")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -21032,7 +21032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef1bb8a5-c433-4051-a19d-164cf1b1e898")
-		(property "Reference" "C29"
+		(property "Reference" "C53"
 			(at 185.928 58.674 0)
 			(effects
 				(font
@@ -21048,7 +21048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 189.23 60.96 0)
 			(effects
 				(font
@@ -21102,7 +21102,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C29")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -21118,7 +21118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0a08f4a-6462-4ddd-8126-402f24815188")
-		(property "Reference" "U12"
+		(property "Reference" "U6"
 			(at 86.36 214.63 0)
 			(effects
 				(font
@@ -21201,7 +21201,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "U12")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -21216,7 +21216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3dbbddb-c10d-4e5d-ae9b-3c6b0766e216")
-		(property "Reference" "R37"
+		(property "Reference" "R30"
 			(at 238.252 229.616 90)
 			(effects
 				(font
@@ -21286,7 +21286,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R37")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -21301,7 +21301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4ca5d48-8dd8-4b68-977c-3f334055718e")
-		(property "Reference" "C93"
+		(property "Reference" "C76"
 			(at 301.498 228.854 0)
 			(effects
 				(font
@@ -21317,7 +21317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 304.8 231.14 0)
 			(effects
 				(font
@@ -21371,7 +21371,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C93")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -21386,7 +21386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6a5222d-821f-4c80-b39e-4777f81e90b1")
-		(property "Reference" "L5"
+		(property "Reference" "L12"
 			(at 365.76 51.562 90)
 			(effects
 				(font
@@ -21456,7 +21456,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "L5")
+					(reference "L12")
 					(unit 1)
 				)
 			)
@@ -21471,7 +21471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f832eef0-29ba-4382-90a2-551a91537ddd")
-		(property "Reference" "R32"
+		(property "Reference" "R25"
 			(at 224.282 176.022 0)
 			(effects
 				(font
@@ -21541,7 +21541,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R32")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -21556,7 +21556,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa2c317f-c35e-4488-93c0-7e8d8041ceb8")
-		(property "Reference" "R35"
+		(property "Reference" "R18"
 			(at 109.982 229.616 90)
 			(effects
 				(font
@@ -21626,7 +21626,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "R35")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -21641,7 +21641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcb188b0-480c-4579-8ac4-f0a32c8baf87")
-		(property "Reference" "C85"
+		(property "Reference" "C60"
 			(at 226.822 223.774 90)
 			(effects
 				(font
@@ -21657,7 +21657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 229.87 224.79 0)
 			(effects
 				(font
@@ -21711,7 +21711,7 @@
 		(instances
 			(project "SmartArm"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/616088de-9770-4d68-ba75-73e47fe3dc83"
-					(reference "C85")
+					(reference "C60")
 					(unit 1)
 				)
 			)
