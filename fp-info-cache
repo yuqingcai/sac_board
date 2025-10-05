@@ -1,4 +1,4 @@
-26646274321488901
+26662760443298184
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67136,6 +67136,118 @@ SMT
 0
 2
 2
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-1028
+Tiny Power Inductor, body 10x10mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-1028
+SMT Shielded
+0
+2
+2
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-1038
+Tiny Power Inductor, body 10x10mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-1038
+SMT Shielded
+0
+2
+2
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-2811
+Tiny Power Inductor, body 2.78x2.78mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-2811
+SMT Shielded
+0
+2
+2
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-2813
+Tiny Power Inductor, body 2.78x2.78mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-2813
+SMT Shielded
+0
+2
+2
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-2828
+Tiny Power Inductor, body 2.8x2.8mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-2828
+SMT Shielded
+0
+2
+2
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-3510
+Tiny Power Inductor, body 3.3x3.5mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-3510
+SMT Shielded
+0
+4
+4
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-3816
+Tiny Power Inductor, body 3.8x3.8mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-3816
+SMT Shielded
+0
+2
+2
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-4818
+Tiny Power Inductor, body 4.8x4.8mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-4818
+SMT Shielded
+0
+2
+2
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-4828
+Tiny Power Inductor, body 4.8x4.8mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-4828
+SMT Shielded
+0
+2
+2
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-5818
+Tiny Power Inductor, body 5.8x5.8mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-5818
+SMT Shielded
+0
+2
+2
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-5828
+Tiny Power Inductor, body 5.8x5.8mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-5828
+SMT Shielded
+0
+2
+2
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-6823
+Tiny Power Inductor, body 6.8x6.8mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-6823
+SMT Shielded
+0
+2
+2
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-8012
+Tiny Power Inductor, body 8x8mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-8012
+SMT Shielded
+0
+4
+4
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-8015
+Tiny Power Inductor, body 8x8mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-8015
+SMT Shielded
+0
+4
+4
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-8020
+Tiny Power Inductor, body 8x8mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-8020
+SMT Shielded
+0
+4
+4
+Inductor_SMD_Wurth-TPC
+L_Wurth_WE-TPC-8043
+Tiny Power Inductor, body 8x8mm, https://www.we-online.com/catalog/en/WE-TPC#/articles/WE-TPC-8043
+SMT Shielded
+0
+4
+4
 Inductor_THT
 Choke_EPCOS_B82722A
 Current-Compensated Ring Core Double Chokes, EPCOS, B82722A, 22.3mmx22.7mm, https://en.tdk.eu/inf/30/db/ind_2008/b82722a_j.pdf

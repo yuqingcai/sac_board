@@ -3611,7 +3611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FXL0630"
 			(at 130.81 115.57 0)
 			(effects
 				(font
@@ -3934,7 +3934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 208.28 72.39 0)
 			(effects
 				(font
@@ -5386,7 +5386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FXL0630"
 			(at 130.81 63.5 0)
 			(effects
 				(font

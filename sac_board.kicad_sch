@@ -112,36 +112,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 95.25) (xy 172.72 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b93de1-0a05-465c-bfb0-4d97702575f9")
-	)
-	(wire
-		(pts
-			(xy 96.52 137.16) (xy 157.48 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bdf1fd6-a765-40c0-ab82-be4c048cd2d4")
-	)
-	(wire
-		(pts
-			(xy 157.48 83.82) (xy 212.09 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d2b2727-139e-4995-946c-cb4ba48d673a")
-	)
-	(wire
-		(pts
 			(xy 96.52 121.92) (xy 142.24 121.92)
 		)
 		(stroke
@@ -192,16 +162,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 87.63) (xy 212.09 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56aaf5f4-2ba5-4df8-acaa-1da287e8f681")
-	)
-	(wire
-		(pts
 			(xy 147.32 76.2) (xy 212.09 76.2)
 		)
 		(stroke
@@ -232,16 +192,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 137.16) (xy 157.48 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6964437c-474c-4619-a525-e5c41a310823")
-	)
-	(wire
-		(pts
 			(xy 121.92 57.15) (xy 212.09 57.15)
 		)
 		(stroke
@@ -262,36 +212,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 87.63) (xy 162.56 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e814582-2218-4f9d-b80c-a56f86df29f2")
-	)
-	(wire
-		(pts
-			(xy 96.52 152.4) (xy 172.72 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a879a6d8-cc80-4b1c-bcea-fd097b34c080")
-	)
-	(wire
-		(pts
-			(xy 167.64 147.32) (xy 167.64 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0019937-09b0-48df-a68a-370fefbdc605")
-	)
-	(wire
-		(pts
 			(xy 96.52 127) (xy 147.32 127)
 		)
 		(stroke
@@ -299,16 +219,6 @@
 			(type default)
 		)
 		(uuid "b3f98974-7a40-482f-8bcf-d21171e50367")
-	)
-	(wire
-		(pts
-			(xy 96.52 147.32) (xy 167.64 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c71a4098-1d4f-46d7-8f2d-06e68f95536d")
 	)
 	(wire
 		(pts
@@ -342,26 +252,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 95.25) (xy 212.09 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4504fad-ea31-450d-8c66-5f9064532e29")
-	)
-	(wire
-		(pts
-			(xy 96.52 142.24) (xy 162.56 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd438b69-e0e7-4b3a-8fee-ea6630809b94")
-	)
-	(wire
-		(pts
 			(xy 95.25 48.26) (xy 212.09 48.26)
 		)
 		(stroke
@@ -389,16 +279,6 @@
 			(type default)
 		)
 		(uuid "ed8ef633-3261-4562-81c1-d57c6c76d128")
-	)
-	(wire
-		(pts
-			(xy 167.64 91.44) (xy 212.09 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef69f05d-130d-43b6-ba44-741eec19c9de")
 	)
 	(sheet
 		(at 212.09 35.56)
@@ -534,46 +414,6 @@
 				(justify left)
 			)
 		)
-		(pin "+7V_M9" input
-			(at 212.09 83.82 180)
-			(uuid "25d11c0f-516d-459f-96ad-abdb00eac4ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+7V_M10" input
-			(at 212.09 87.63 180)
-			(uuid "3acbfae3-fa96-4c47-acf8-1280a1315b48")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+7V_M11" input
-			(at 212.09 91.44 180)
-			(uuid "d2833037-e1ea-42f7-a0ea-0f22e5b99073")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+7V_M12" input
-			(at 212.09 95.25 180)
-			(uuid "0121af2c-5f45-495a-83ec-4686122b9e19")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VDDA" input
 			(at 212.09 48.26 180)
 			(uuid "f4a03d6e-c821-4853-b4ec-e82fcb396eda")
@@ -699,46 +539,6 @@
 		(pin "+7V_M8" output
 			(at 96.52 132.08 0)
 			(uuid "9d4500c1-3c83-474f-88d0-a8e91721053c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "+7V_M9" output
-			(at 96.52 137.16 0)
-			(uuid "f2eaf1e1-99bb-41c7-ae57-c1dcbb259f41")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "+7V_M10" output
-			(at 96.52 142.24 0)
-			(uuid "0d6c8fe7-0fee-430e-8813-88498c5e4663")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "+7V_M11" output
-			(at 96.52 147.32 0)
-			(uuid "d54b0a63-3c4c-49f0-a9a5-a19a0e35486f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "+7V_M12" output
-			(at 96.52 152.4 0)
-			(uuid "3a633de7-54ff-4a3c-9503-2c8f517c4d22")
 			(effects
 				(font
 					(size 1.27 1.27)
