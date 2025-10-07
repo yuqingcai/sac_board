@@ -18100,7 +18100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00313438-11de-45a1-bb7d-eb8185388c74")
-		(property "Reference" "R85"
+		(property "Reference" "R86"
 			(at 346.456 146.812 90)
 			(effects
 				(font
@@ -18108,7 +18108,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "220"
 			(at 346.456 150.876 90)
 			(effects
 				(font
@@ -18170,7 +18170,7 @@
 		(instances
 			(project "sac_board"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/52e20330-efd4-4d59-a57b-f0ea443c9be4"
-					(reference "R85")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -18444,7 +18444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05ce6a52-fa59-4364-a9e0-61389df689d1")
-		(property "Reference" "R84"
+		(property "Reference" "R87"
 			(at 379.476 146.812 90)
 			(effects
 				(font
@@ -18452,7 +18452,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "220"
 			(at 379.476 150.876 90)
 			(effects
 				(font
@@ -18514,7 +18514,7 @@
 		(instances
 			(project "sac_board"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/52e20330-efd4-4d59-a57b-f0ea443c9be4"
-					(reference "R84")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -19812,7 +19812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b5e3af8-11cb-4c07-8499-e730c2f063e1")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 288.29 142.748 0)
 			(effects
 				(font
@@ -19820,7 +19820,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "WHITE LED"
 			(at 288.29 145.288 0)
 			(effects
 				(font
@@ -19873,7 +19873,7 @@
 		(instances
 			(project "sac_board"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/52e20330-efd4-4d59-a57b-f0ea443c9be4"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -20303,7 +20303,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "220"
 			(at 379.476 164.846 90)
 			(effects
 				(font
@@ -20689,7 +20689,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED LED"
 			(at 387.604 159.512 0)
 			(effects
 				(font
@@ -22944,11 +22944,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 363.22 166.37 0)
+			(at 365.76 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -23859,7 +23860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66984d32-1ef2-4bdf-8876-c56a9540c342")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 322.58 142.748 0)
 			(effects
 				(font
@@ -23867,7 +23868,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "WHITE LED"
 			(at 322.58 145.288 0)
 			(effects
 				(font
@@ -23920,7 +23921,7 @@
 		(instances
 			(project "sac_board"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/52e20330-efd4-4d59-a57b-f0ea443c9be4"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -24351,11 +24352,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 294.64 153.67 0)
+			(at 297.18 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -24538,7 +24540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7245f989-e34c-4ab9-a802-d0d7c6a5009d")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 357.124 155.702 0)
 			(effects
 				(font
@@ -24546,7 +24548,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED LED"
 			(at 357.124 158.242 0)
 			(effects
 				(font
@@ -24599,7 +24601,7 @@
 		(instances
 			(project ""
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/52e20330-efd4-4d59-a57b-f0ea443c9be4"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -25645,7 +25647,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "220"
 			(at 348.996 163.576 90)
 			(effects
 				(font
@@ -26615,11 +26617,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 361.95 153.67 0)
+			(at 364.49 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -26766,11 +26769,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 393.7 153.67 0)
+			(at 396.24 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -29291,7 +29295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc10c0d4-5e01-4c9e-a191-355eeb157ce6")
-		(property "Reference" "R87"
+		(property "Reference" "R84"
 			(at 279.146 146.812 90)
 			(effects
 				(font
@@ -29299,7 +29303,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "220"
 			(at 279.146 150.876 90)
 			(effects
 				(font
@@ -29361,7 +29365,7 @@
 		(instances
 			(project "sac_board"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/52e20330-efd4-4d59-a57b-f0ea443c9be4"
-					(reference "R87")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -29376,7 +29380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcc58869-8faf-4b5b-bed3-5d97e4afd94a")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 356.108 142.24 0)
 			(effects
 				(font
@@ -29384,7 +29388,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ORANGE LED"
 			(at 356.108 144.78 0)
 			(effects
 				(font
@@ -29437,7 +29441,7 @@
 		(instances
 			(project "sac_board"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/52e20330-efd4-4d59-a57b-f0ea443c9be4"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -29537,7 +29541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0a2149b-f590-4588-af5b-b417f2a25701")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 387.858 142.494 0)
 			(effects
 				(font
@@ -29545,7 +29549,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ORANGE LED"
 			(at 387.858 145.034 0)
 			(effects
 				(font
@@ -29598,7 +29602,7 @@
 		(instances
 			(project "sac_board"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/52e20330-efd4-4d59-a57b-f0ea443c9be4"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -30013,11 +30017,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 393.7 167.64 0)
+			(at 396.24 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -30220,7 +30225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee27d6c4-0cf7-480c-8f15-b8cdf1223a21")
-		(property "Reference" "R86"
+		(property "Reference" "R85"
 			(at 313.436 146.812 90)
 			(effects
 				(font
@@ -30228,7 +30233,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "220"
 			(at 313.436 150.876 90)
 			(effects
 				(font
@@ -30290,7 +30295,7 @@
 		(instances
 			(project "sac_board"
 				(path "/74ff6d0b-648c-43d9-a5b1-cc8d6cd1c1ef/52e20330-efd4-4d59-a57b-f0ea443c9be4"
-					(reference "R86")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -31040,11 +31045,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 328.93 153.67 0)
+			(at 331.47 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

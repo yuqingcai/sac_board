@@ -729,6 +729,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TPS563201 Output Voltage Resistors Selection\nVout = 0.768 x (1.0+R1/R2)\nR1: 82K\nR2: 10K\nOutput: 7.06V"
+		(exclude_from_sim no)
+		(at 73.406 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84467c0f-4355-43b6-8bc1-04e5eed112de")
+	)
 	(junction
 		(at 308.61 71.12)
 		(diameter 0)
