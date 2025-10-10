@@ -679,10 +679,6 @@
     [
       "52e20330-efd4-4d59-a57b-f0ea443c9be4",
       "mcu"
-    ],
-    [
-      "5217942a-e964-4229-9791-31078dd90a8f",
-      "led_servo"
     ]
   ],
   "text_variables": {}
