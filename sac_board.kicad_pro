@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -128,17 +128,17 @@
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_hole_to_hole": 0.2,
+        "min_microvia_diameter": 0.4,
+        "min_microvia_drill": 0.2,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.0,
+        "min_via_diameter": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -191,6 +191,7 @@
         0.1,
         0.18,
         0.2,
+        0.25,
         0.3,
         0.5,
         0.6,
@@ -198,7 +199,6 @@
         1.0,
         1.2,
         2.0,
-        2.4,
         3.0
       ],
       "tuning_pattern_settings": {
