@@ -1672,7 +1672,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GREEN LED"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "4db55bba-532f-4b79-9bb8-e21817df59d4")
@@ -3680,7 +3680,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GREEN LED"
 			(at -2.45 0 90)
 			(layer "F.Fab")
 			(uuid "de17f964-79f5-429b-89f2-da32248922cd")
@@ -8947,7 +8947,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "WHITE LED"
 			(at -2.4 0.1 90)
 			(layer "F.Fab")
 			(uuid "77db9507-5077-41ec-b9ac-ae811fc91afe")
@@ -9380,7 +9380,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "WHITE LED"
 			(at -2.4 0.1 90)
 			(layer "F.Fab")
 			(uuid "6381165f-4dcb-4b65-9284-d49726228c8d")
@@ -9825,11 +9825,11 @@
 	(footprint "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
 		(layer "F.Cu")
 		(uuid "43ce1ef2-8b32-4566-acaa-a1f7af466eed")
-		(at 108.95 55.5 180)
+		(at 108.95 55.5 90)
 		(descr "CK components KSC7 tactile switch https://www.ckswitches.com/media/1973/ksc7.pdf")
 		(tags "tactile switch ksc7")
 		(property "Reference" "SW1"
-			(at -5.5 -1.75 90)
+			(at -5.5 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "f4351f9a-6f63-4df9-aebb-af67069d8b5b")
 			(effects
@@ -9840,7 +9840,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -4.23 0)
+			(at 0 -4.23 90)
 			(layer "F.Fab")
 			(uuid "a0ac8b9a-37fe-4479-a180-08c09a257f53")
 			(effects
@@ -9851,7 +9851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9864,7 +9864,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9877,7 +9877,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9890,7 +9890,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9907,36 +9907,6 @@
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 3.21 3.21)
-			(end 3.21 2.93)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e708304a-9984-4a0a-9463-3f542b162361")
-		)
-		(fp_line
-			(start 3.21 1.2)
-			(end 3.21 -1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3e5d4af4-2baf-4d05-9acc-b79423ce5813")
-		)
-		(fp_line
-			(start 3.21 -2.8)
-			(end 3.21 -3.21)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "19d8de85-e834-44e1-acd3-e6296cbc2b11")
-		)
-		(fp_line
 			(start 3.21 -3.21)
 			(end -3.21 -3.21)
 			(stroke
@@ -9945,36 +9915,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "359cb4e8-3aab-4a36-9a6e-64eae4f7e13f")
-		)
-		(fp_line
-			(start -3.21 3.21)
-			(end 3.21 3.21)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9062bf22-03c9-470d-a84e-6e53752f31b4")
-		)
-		(fp_line
-			(start -3.21 2.8)
-			(end -3.21 3.21)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "669b7388-638e-4ab4-aece-726a42a48e77")
-		)
-		(fp_line
-			(start -3.21 -1.2)
-			(end -3.21 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "30de51d3-9cd1-4873-b086-f265683ac5a5")
 		)
 		(fp_line
 			(start -3.21 -3.21)
@@ -9987,14 +9927,64 @@
 			(uuid "2355b37f-4e2f-469b-97ee-8a461ecaa68f")
 		)
 		(fp_line
-			(start 4.55 3.35)
-			(end -4.55 3.35)
+			(start 3.21 -2.8)
+			(end 3.21 -3.21)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "5cd14111-213f-41e7-90ef-81c416b4c278")
+			(layer "F.SilkS")
+			(uuid "19d8de85-e834-44e1-acd3-e6296cbc2b11")
+		)
+		(fp_line
+			(start -3.21 -1.2)
+			(end -3.21 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "30de51d3-9cd1-4873-b086-f265683ac5a5")
+		)
+		(fp_line
+			(start 3.21 1.2)
+			(end 3.21 -1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3e5d4af4-2baf-4d05-9acc-b79423ce5813")
+		)
+		(fp_line
+			(start -3.21 2.8)
+			(end -3.21 3.21)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "669b7388-638e-4ab4-aece-726a42a48e77")
+		)
+		(fp_line
+			(start 3.21 3.21)
+			(end 3.21 2.93)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e708304a-9984-4a0a-9463-3f542b162361")
+		)
+		(fp_line
+			(start -3.21 3.21)
+			(end 3.21 3.21)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9062bf22-03c9-470d-a84e-6e53752f31b4")
 		)
 		(fp_line
 			(start 4.55 -3.35)
@@ -10007,16 +9997,6 @@
 			(uuid "e3efc0e3-758b-4dad-a221-309160b78df4")
 		)
 		(fp_line
-			(start -4.55 3.35)
-			(end -4.55 -3.35)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "51c4a63d-9123-4169-85a6-22d7cebd61e3")
-		)
-		(fp_line
 			(start -4.55 -3.35)
 			(end 4.55 -3.35)
 			(stroke
@@ -10027,14 +10007,24 @@
 			(uuid "26c7b3b2-dd97-4f76-b59d-a071dd1f5aae")
 		)
 		(fp_line
-			(start 3.1 3.1)
-			(end -3.1 3.1)
+			(start 4.55 3.35)
+			(end -4.55 3.35)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "7d1b7f1d-089e-4ad7-b03a-a787a562f703")
+			(layer "F.CrtYd")
+			(uuid "5cd14111-213f-41e7-90ef-81c416b4c278")
+		)
+		(fp_line
+			(start -4.55 3.35)
+			(end -4.55 -3.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "51c4a63d-9123-4169-85a6-22d7cebd61e3")
 		)
 		(fp_line
 			(start 3.1 -3.1)
@@ -10047,16 +10037,6 @@
 			(uuid "47f2f331-5baa-486f-8025-6995930f5ae9")
 		)
 		(fp_line
-			(start -3.1 3.1)
-			(end -3.1 -3.1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "69cc1523-f7c3-49ee-8e7e-cc596f2e8f23")
-		)
-		(fp_line
 			(start -3.1 -3.1)
 			(end 3.1 -3.1)
 			(stroke
@@ -10065,6 +10045,26 @@
 			)
 			(layer "F.Fab")
 			(uuid "ec96ce70-43d5-40bd-afd6-03e0233fa6ae")
+		)
+		(fp_line
+			(start 3.1 3.1)
+			(end -3.1 3.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7d1b7f1d-089e-4ad7-b03a-a787a562f703")
+		)
+		(fp_line
+			(start -3.1 3.1)
+			(end -3.1 -3.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "69cc1523-f7c3-49ee-8e7e-cc596f2e8f23")
 		)
 		(fp_circle
 			(center 0 0)
@@ -10078,7 +10078,7 @@
 			(uuid "0107c7e5-27e4-485c-a226-24d65591e4a7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "9774fdf5-3224-49b7-824c-229313b4a141")
 			(effects
@@ -10089,7 +10089,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.9 -2 180)
+			(at -2.9 -2 90)
 			(size 2.8 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10099,7 +10099,7 @@
 			(uuid "0fba0bf8-a30f-4b94-8f06-03d74436167d")
 		)
 		(pad "1" smd roundrect
-			(at 2.9 -2 180)
+			(at 2.9 -2 90)
 			(size 2.8 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10109,7 +10109,7 @@
 			(uuid "2f49a9b8-3296-4697-b17b-c6d2af9329c2")
 		)
 		(pad "2" smd roundrect
-			(at -2.9 2 180)
+			(at -2.9 2 90)
 			(size 2.8 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10119,7 +10119,7 @@
 			(uuid "ab2865a8-c92a-48f9-a5fa-887867cedd98")
 		)
 		(pad "2" smd roundrect
-			(at 2.9 2 180)
+			(at 2.9 2 90)
 			(size 2.8 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -19459,7 +19459,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "WHITE LED"
 			(at -2.6 0.15 90)
 			(layer "F.Fab")
 			(uuid "ae9e1e27-0719-4fa4-85d7-d8fd0b3da49d")
@@ -19693,7 +19693,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "WHITE LED"
 			(at -2.4 0.15 90)
 			(layer "F.Fab")
 			(uuid "22eb2d83-aad9-455d-b4b0-026a406c6f26")
@@ -23025,7 +23025,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "WHITE LED"
 			(at -2.4125 0.15 180)
 			(layer "F.Fab")
 			(uuid "8d911441-a06a-4b25-8ba6-d7c4bf80c995")
@@ -28674,7 +28674,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ORANGE LED"
 			(at -2.4125 -0.05 180)
 			(layer "F.Fab")
 			(uuid "f15d1ee6-ede5-4b14-9290-a33a8d8f100b")
@@ -29692,7 +29692,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "WHITE LED"
 			(at -2.5 0 90)
 			(layer "F.Fab")
 			(uuid "b817ce75-b59d-4f6a-b1e8-f43b24d4e3cf")
@@ -33122,7 +33122,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ORANGE LED"
 			(at -2.4125 0.15 180)
 			(layer "F.Fab")
 			(uuid "775b622f-d599-4768-95d2-d49159d6c070")
@@ -36084,7 +36084,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "WHITE LED"
 			(at -2.4125 0.15 180)
 			(layer "F.Fab")
 			(uuid "953d0e94-25e9-4473-bb29-cf8409ea4156")
@@ -36768,7 +36768,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "WHITE LED"
 			(at -2.5 0.1 90)
 			(layer "F.Fab")
 			(uuid "f33e5f97-b9d4-4b16-96ae-613bf8d7f0a7")
@@ -38241,7 +38241,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "WHITE LED"
 			(at -2.5 0.14 90)
 			(layer "F.Fab")
 			(uuid "63fd364c-3e35-4b9a-993a-b4dc31809e20")
@@ -40043,7 +40043,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "WHITE LED"
 			(at -2.5 0.1 90)
 			(layer "F.Fab")
 			(uuid "950ea70c-bdf3-4ce1-8db6-24a8bc36baff")
